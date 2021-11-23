@@ -1,0 +1,187 @@
+@media (max-width: 1007px) {
+    .intro__title {
+        font-size: 42px;
+        line-height: 55px;
+    }
+
+    .intro__disciplines {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 35px;
+    }
+
+    .intro__disciplines-icons {
+        border-right: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .disciplines__clients {
+        margin: 20px 0;
+    }
+}
+
+@media (max-width: 950px) {
+    .endava {
+        margin-bottom: 170px;
+    }
+}
+
+@media (max-width: 790px) {
+    .intro__inner {
+        flex-direction: column;
+    }
+
+    .intro__left-side {
+        order: 1;
+        margin-top: 50px;
+    }
+
+    .footer__right-side {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .intro {
+        padding: 20px 0;
+    }
+
+    .intro__left-side {
+        margin-top: 25px;
+    }
+
+    .footer__quastions {
+        margin: 0;
+    }
+
+    .footer__left-side {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .inner__item-1,
+    .inner__item-2,
+    .inner__item-3,
+    .inner__item-4 {
+        display: none;
+    }
+
+    .inner-bg-photo  img{
+        min-width: 535px;
+    }
+    
+}
+
+@media (max-width: 497px) {
+
+    body {
+        background-color: #000;
+        color: #fff;
+    }
+
+    .title {
+        display: none;
+    }
+    .subtitle {
+        display: none;
+    }
+
+    .tools__card-inner {
+        padding-bottom: 30px;
+    }
+
+    .header__logo {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .header {
+        transform: none;
+    }
+
+    .header::before {
+        display: none;
+    }
+
+    .header::after {
+        display: none;
+    }
+
+    .header__logo a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .header__logo p {
+        max-width: 300px;
+        margin: 0 auto;
+        margin-top: 35px;
+        display: block;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 70px;
+    }
+
+    .intro__inner {
+        justify-content: center;
+    }
+
+    .intro__left-side {
+        display: none;
+    }
+
+    .intro__right-side {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer {
+        display: none;
+    }
+
+
+    .tools::before {
+        display: none;
+    }
+    
+    .tools::after {
+        display: none;
+    }
+
+    .title,
+    .subtitle {
+        color: #fff;
+    }
+
+    .tools__card-subtitle {
+        color: #fff;
+    }
+
+    .tools__card-title {
+        color: #fff;
+    }
+
+    .tools__card {
+        padding: 16px;
+    }
+
+    .tools__card-inner {
+        margin-bottom: 0;
+    }
+
+    .endava {
+        display: none;
+    }
+
+    .decoration {
+        display: none;
+    }
+
+    .abs {
+        position: absolute;
+    }
+}
